@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_back"
+    tools:context=".GetDetails">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Enter Name"
+
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/editTextAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextName"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Age"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/editTextStrength"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextAge"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Strength (Any 3 in words)"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/editTextWeakness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextStrength"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Weakness (Any 3 in words)"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextWeakness"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="submitData"
+        android:text="Submit"/>
+
+</RelativeLayout>

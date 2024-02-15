@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "104940280705",
+    "project_id": "kuru123-3c4ce",
+    "storage_bucket": "kuru123-3c4ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104940280705:android:7f8a1b579ad79bacffe680",
+        "android_client_info": {
+          "package_name": "com.example.kuru"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtJsQwfaDfzXeFjjh29JfENLE29BOfNaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
