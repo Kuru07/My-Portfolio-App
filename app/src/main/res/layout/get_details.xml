@@ -8,15 +8,15 @@
 
     <EditText
         android:id="@+id/editTextName"
-        android:layout_width="match_parent"
+        android:layout_width="325dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="175dp"
         android:hint="Enter Name"
         android:layout_centerHorizontal="true"/>
 
     <EditText
         android:id="@+id/editTextAge"
-        android:layout_width="match_parent"
+        android:layout_width="325dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/editTextName"
         android:layout_marginTop="20dp"
@@ -25,7 +25,7 @@
 
     <EditText
         android:id="@+id/editTextStrength"
-        android:layout_width="match_parent"
+        android:layout_width="325dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/editTextAge"
         android:layout_marginTop="20dp"
@@ -34,7 +34,7 @@
 
     <EditText
         android:id="@+id/editTextWeakness"
-        android:layout_width="match_parent"
+        android:layout_width="325dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/editTextStrength"
         android:layout_marginTop="20dp"
@@ -44,7 +44,7 @@
     <!-- RadioGroup for selecting gender -->
     <RadioGroup
         android:id="@+id/radioGroup"
-        android:layout_width="match_parent"
+        android:layout_width="325dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/editTextWeakness"
         android:layout_marginTop="20dp"
