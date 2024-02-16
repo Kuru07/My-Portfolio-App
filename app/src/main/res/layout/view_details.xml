@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:background="@drawable/login_back"
-tools:context=".ViewDetails">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_back"
+    tools:context=".ViewDetails">
 
     <ImageView
         android:id="@+id/og"
@@ -15,49 +15,49 @@ tools:context=".ViewDetails">
         android:src="@drawable/og" />
 
     <TextView
-    android:id="@+id/textViewName"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_below="@id/og"
-    android:layout_centerHorizontal="true"
-    android:text="Name:"
-    android:layout_marginTop="60dp"
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/og"
+        android:layout_centerHorizontal="true"
+        android:text="Name:"
+        android:layout_marginTop="60dp"
 
-    android:textColor="@android:color/black"
-    android:textSize="20sp"
-    android:textStyle="bold" />
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
-<TextView
-    android:id="@+id/textViewAge"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_below="@id/textViewName"
-    android:layout_marginTop="20dp"
-    android:layout_centerHorizontal="true"
-    android:text="Age:"
-    android:textColor="@android:color/black"
-    android:textSize="20sp" />
+    <TextView
+        android:id="@+id/textViewAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewName"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Age:"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
 
-<TextView
-    android:id="@+id/textViewStrength"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_below="@id/textViewAge"
-    android:layout_centerHorizontal="true"
-    android:layout_marginTop="20dp"
-    android:text="Strength:"
-    android:textColor="@android:color/black"
-    android:textSize="20sp" />
+    <TextView
+        android:id="@+id/textViewStrength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewAge"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Strength:"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
 
-<TextView
-    android:id="@+id/textViewWeakness"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_below="@id/textViewStrength"
-    android:layout_marginTop="20dp"
-    android:layout_centerHorizontal="true"
-    android:text="Weakness:"
-    android:textColor="@android:color/black"
-    android:textSize="20sp" />
+    <TextView
+        android:id="@+id/textViewWeakness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewStrength"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Weakness:"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
 
 </RelativeLayout>
