@@ -15,8 +15,6 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <!-- Add any additional elements here if needed -->
-
         </LinearLayout>
 
         <ImageView
