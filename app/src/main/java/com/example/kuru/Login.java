@@ -44,6 +44,7 @@ public class Login extends AppCompatActivity {
                                 Toast.makeText(Login.this,"Login successfull",Toast.LENGTH_LONG).show();
                                 Intent intent = new Intent(Login.this, GetDetails.class);
                                 startActivity(intent);
+                                finish();
                             }
                         })
                         .addOnFailureListener(new OnFailureListener() {
@@ -82,6 +83,7 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Login.this,SignUpActivity.class));
+                finish();
             }
         });
     }

@@ -18,12 +18,14 @@ public class First extends AppCompatActivity {
         // Intent to start LoginActivity
         Intent intent = new Intent(this, Login.class);
         startActivity(intent);
+        finish();
     }
 
     public void onSignUpClick(View view) {
         // Intent to start SignUpActivity
         Intent intent = new Intent(this, SignUpActivity.class);
         startActivity(intent);
+        finish();
     }
 }
 

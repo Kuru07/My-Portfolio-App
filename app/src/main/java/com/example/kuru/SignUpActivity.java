@@ -36,6 +36,7 @@ public class SignUpActivity extends AppCompatActivity {
                         .addOnSuccessListener(authResult -> {
                             Intent intent = new Intent(SignUpActivity.this, Login.class);
                             startActivity(intent);
+                            finish();
                             progressDialog.setVisibility(View.INVISIBLE);
                             String uid = firebaseAuth.getUid();
                             if (uid != null) {
@@ -62,6 +63,7 @@ public class SignUpActivity extends AppCompatActivity {
 
         binding.gotologin.setOnClickListener(view -> {
             startActivity(new Intent(view.getContext(), Login.class));
+            finish();
         });
     }
 }

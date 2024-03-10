@@ -53,8 +53,10 @@ public class GetDetails extends AppCompatActivity {
         // Open respective activity based on selected gender
         if (gender.equals("Male")) {
             intent = new Intent(this, ViewDetails.class);
+            finish();
         } else { // Assuming Female
             intent = new Intent(this, ViewDetailsGirl.class);
+            finish();
         }
 
         // Pass data to the next activity
